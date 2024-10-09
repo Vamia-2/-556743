@@ -41,7 +41,7 @@ public:
 
     // Префіксний інкремент
     Overcoat& operator++() {
-        ++size;
+        size+=2;
         return *this;
     }
 

@@ -54,7 +54,7 @@ public:
 
     // Префіксний декремент
     Overcoat& operator--() {
-        --size;
+        size-=2;
         return *this;
     }
 
